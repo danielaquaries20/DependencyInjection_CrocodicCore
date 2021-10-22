@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dependency Injection_Crocodic Core</string>
+    <string name="di_tanpa_hilt">DI Tanpa Hilt</string>
+    <string name="di_dengan_hilt">DI Dengan Hilt</string>
+    <string name="counter">Counter</string>
+    <string name="_minus">-</string>
+    <string name="_plus">+</string>
+    <string name="_0">0</string>
+    <string name="crocodic_core">Crocodic Core</string>
+    <string name="detail_data1">Detail Data 1</string>
+    <string name="detail_data2">Detail Data 2</string>
+    <string name="nama">Nama</string>
+    <string name="sekolah">Sekolah</string>
+    <string name="kembali">Kembali</string>
+</resources>

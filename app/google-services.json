@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "160888975946",
+    "project_id": "dependencycrocodiccore",
+    "storage_bucket": "dependencycrocodiccore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160888975946:android:48bd2a97fb2e2a91812cb3",
+        "android_client_info": {
+          "package_name": "com.example.dependencyinjection_crocodiccore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160888975946-ic7e6btpdjakb44gu3lf2an9dnvbba5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dependencyinjection_crocodiccore",
+            "certificate_hash": "c347bd5d00f0eb75da3e5b23f1f8922721a86eba"
+          }
+        },
+        {
+          "client_id": "160888975946-8si0c2hi1mljj1jrtp8pg3nsppbns0s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD5S4ad0J8FIQcs5wHQ34dn5UTwIn5tbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160888975946-8si0c2hi1mljj1jrtp8pg3nsppbns0s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
