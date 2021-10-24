@@ -15,6 +15,7 @@ class DenganCrocodicCoreActivity : AppCompatActivity() {
         binding = ActivityDenganCrocodicCoreBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //Pakai cara Manual
 //        binding.btnNextDetail.setOnClickListener {
 //            val detailIntent = Intent(this, DetailCrocodicCoreActivity::class.java).apply {
 //                putExtra("nama", "Daniel Aquaries Pratama")
@@ -23,11 +24,14 @@ class DenganCrocodicCoreActivity : AppCompatActivity() {
 //            startActivity(detailIntent)
 //        }
 
-        openActivity<DetailCrocodicCoreActivity> {
-            putExtra("nama", "Daniel Aquaries Pratama")
-            putExtra("sekolah", "SMK N 11 Semarang")
-        }
+        //Pakai Library Crocodic
+        binding.btnNextDetail.setOnClickListener {
+            openActivity<DetailCrocodicCoreActivity> {
+                putExtra("nama", "Daniel Aquaries Pratama")
+                putExtra("sekolah", "SMK N 11 Semarang")
+            }
 
+        }
 
     }
 }
